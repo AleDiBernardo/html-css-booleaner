@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
-
+    color: black;
 }
 
 section{
@@ -114,4 +114,11 @@ table tr:nth-child(odd) {
 
 .graph-image{
     background-image: url(../img/graph.jpg);
+}
+
+.text-on-image{
+    float: left;
+    font-size: 40px;
+    color: white;
+    font-family: monospace;
 }
