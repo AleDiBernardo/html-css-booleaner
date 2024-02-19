@@ -3,3 +3,15 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-image: url("../img/pattern.png");
+    background-color: cornflowerblue;
+    height: 200px;
+}
+
+#header-title{
+    font-size: 50px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
