@@ -1,21 +1,42 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header{
+header {
     background-image: url("../img/pattern.png");
     background-color: cornflowerblue;
     height: 200px;
 }
 
-h1{
+#logo {
+    width: 20%;
+}
+
+h1 {
     font-size: 55px;
 }
 
-#header-title{
+#header-title {
     font-size: 50px;
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.subtitles {
+    color: lightgray;
+    font-size: 30px;
+}
+
+.cfb-text {
+    color: cornflowerblue;
+}
+
+.card{
+    float: left;
+    padding-left: 10px;
+}
+
+
+
