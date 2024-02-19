@@ -6,13 +6,17 @@ body {
 }
 
 header {
+    position: relative;
     background-image: url("../img/pattern.png");
     background-color: cornflowerblue;
-    height: 200px;
+    height: 100px;
 }
 
 #logo {
-    width: 20%;
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+
 }
 
 h1 {
@@ -33,6 +37,32 @@ h1 {
     color: cornflowerblue;
 }
 
-.highlighted{
+.highlighted {
     background-color: yellow;
+}
+
+
+/* Table */
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #69dcff;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+table tr:nth-child(odd) {
+    background-color: #008cff2e;
 }
