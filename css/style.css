@@ -33,5 +33,6 @@ h1 {
     color: cornflowerblue;
 }
 
-
-
+.highlighted{
+    background-color: yellow;
+}
